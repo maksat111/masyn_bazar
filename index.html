@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masyn bazar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav">
+            <img src="img/dark-logo.png" class="brand-logo" alt="">
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="Gözlemek isleýän harydyňyzy ýazyň">
+                    <button class="search-btn">Gözlemek</button>
+                </div>
+                <a href="#"><img src="img/user.png" alt=""></a>
+                <a href="#"><img src="img/cart.png" alt=""></a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Maşynlar</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="products/product1.html">Toyota Camry 2020</a>
+                        <a href="products/product2.html">BMW X6 2021</a>
+                        <a href="products/product3.html">Volkswagen Touareg 2019</a>
+                        <a href="products/product4.html">Toyota Camry 2011</a>
+                        <a href="products/product5.html">Toyota Camry 2018</a>
+                        <a href="products/product6.html">Lexus RX350 2017</a>
+                        <a href="products/product7.html">Toyota Prado 2005</a>
+                        <a href="products/product8.html">Hyundai Genesis 2020</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- SLider -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="img/slider1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/slider2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/slider3.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Products -->
+    <h2 class="category-name">Maşynlar</h2>
+    <div class="product-container">
+
+        <div class="card">
+            <img src="img/product1.webp" alt="Denim Jeans" style="width:100%">
+            <h1>Toyota Camry 2020</h1>
+            <p class="price">290.000 TMT</p>
+            <a href="products/product1.html"><button>Giňişleýin seretmek</button></a>
+        </div>
+
+        <div class="card">
+            <img src="img/product2.webp" alt="Denim Jeans" style="width:100%">
+            <h1>BMW X6 2021</h1>
+            <p class="price">2.820.000 TMT</p>
+            <a href="products/product2.html"><button>Giňişleýin seretmek</button></a>
+        </div>
+
+        <div class="card">
+            <img src="img/product3.webp" alt="Denim Jeans" style="width:100%">
+            <h1>Volkswagen Touareg 2019</h1>
+            <p class="price">1.600.000 TMT</p>
+            <a href="products/product3.html"><button>Giňişleýin seretmek</button></a>
+        </div>
+
+        <div class="card">
+            <img src="img/product4.webp" alt="Denim Jeans" style="width:100%">
+            <h1>Toyota Camry 2011</h1>
+            <p class="price">178.000 TMT</p>
+            <a href="products/product4.html"><button>Giňişleýin seretmek</button></a>
+        </div>
+
+        <div class="card">
+            <img src="img/product5.webp" alt="Denim Jeans" style="width:100%">
+            <h1>Toyota Camry 2018</h1>
+            <p class="price">340.000 TMT</p>
+            <a href="products/product5.html"><button>Giňişleýin seretmek</button></a>
+        </div>
+
+        <div class="card">
+            <img src="img/product6.webp" alt="Denim Jeans" style="width:100%">
+            <h1>Lexus RX350 2017</h1>
+            <p class="price">579.000 TMT</p>
+            <a href="products/product6.html"><button>Giňişleýin seretmek</button></a>
+        </div>
+
+        <div class="card">
+            <img src="img/product7.webp" alt="Denim Jeans" style="width:100%">
+            <h1>Toyota Prado 2005</h1>
+            <p class="price">255.000 TMT</p>
+            <a href="products/product7.html"><button>Giňişleýin seretmek</button></a>
+        </div>
+
+        <div class="card">
+            <img src="img/product8.webp" alt="Denim Jeans" style="width:100%">
+            <h1>Hyundai Genesis 2020</h1>
+            <p class="price">975.000 TMT</p>
+            <a href="products/product8.html"><button>Giňişleýin seretmek</button></a>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <img src="img/dark-logo.png" class="logo" alt="">
+            <div class="footer-ul-container">
+                <ul class="category">
+                    <li class="category-title">Maşynlar</li>
+                    <li><a href="#" class="footer-link">BMW</a></li>
+                    <li><a href="#" class="footer-link">Mercedes</a></li>
+                    <li><a href="#" class="footer-link">Porche</a></li>
+                    <li><a href="#" class="footer-link">Toyota</a></li>
+                    <li><a href="#" class="footer-link">KIA</a></li>
+                    <li><a href="#" class="footer-link">Audi</a></li>
+                    <li><a href="#" class="footer-link">Lexus</a></li>
+                    <li><a href="#" class="footer-link">Jeep</a></li>
+                    <li><a href="#" class="footer-link">Renault</a></li>
+                    <li><a href="#" class="footer-link">Opel</a></li>
+                </ul>
+                <ul class="second-category">
+                    <li class="category-title">Beýlekiler</li>
+                    <li><a href="#" class="footer-link">Jaý we emläkler</a></li>
+                    <li><a href="#" class="footer-link">Öý we ofis üçin</a></li>
+                    <li><a href="#" class="footer-link">Kompýuter tehnika</a></li>
+                    <li><a href="#" class="footer-link">Awtoşaýlar</a></li>
+                    <li><a href="#" class="footer-link">Täzelikler</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-credit">Ähli hukuklary goralan. Made with ♥ by Guwanch.</p>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
